@@ -1,74 +1,69 @@
 <!DOCTYPE html>
 <html>
-<style>
-    div {
-        display: block;
-    }
 
-    img#logo {
-        margin-top: 20px;
-        display: block;
-        margin: 0 auto;
-    }
-
-    #searchbar {
-        display: block;
-        margin: 20px auto 20px auto;
-        font-family: Arial, sans-serif;
-    }
-
-    #buttons {
-        display: flex;
-        justify-content: center;
-    }
-
-    #navigator {
-        display: grid;
-        grid-template-columns: 50px 50px;
-        align-items: start;
-        font-family: arial,sans-serif;
-    }
-
-    #item1 a {
-        display: block;
-        padding-left: 15px;
-        font-family: arial,sans-serif;
-        color:black;
-    }
-
-    #language {
-        display: flex;
-        justify-content: center;
-        font-family: arial,sans-serif;
-    }
-</style>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="sytles/main.css" media="all">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title> Simple Google Homepage</title>
+</head>
 
 <body>
-    <header>
-        <div id="navigator">
-            <a id="item1"
-                href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header">About</a>
-            <a id="item2"
-                href="https://store.google.com/CA/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-CA">Store</a>
+    <div class="page">
+        <header>
+            <div class="topleft">
+                <a href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header">
+                        About </a>
+                <a href="https://store.google.com/CA/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-CA">Store
+                    </a>
+            </div>
+
+            <div class="topright">
+                <a href="http://gmail.com"> Gmail </a>
+                <a href="#" class="login"> Login </a>
+            </div>
+        </header>
+
+        <center>
+        <div class="glogo">
+            <img alt="Google" id="logo" src="images/googlelogo_color_272x92dp.png" height="92" width=272>
+        </div>
+        </center>
+
+        <div class="searchInput">
+            <center>
+                <input class="searchin" maxlength="2048" type="text">
+            </center>
         </div>
 
-    </header>
-    <div>
-        <img alt="Google" height="92" id="logo" src="images/googlelogo_color_272x92dp.png">
-    </div>
-    <div>
-        <input maxlength="9999" name="searchbar" type="text" title="Search" id="searchbar" class="searchbar">
-    </div>
-    <div id="buttons">
-        <button type="submit"> Google Search </button>
-        <button type="submit"> I'm Feeling Lucky</button>
-    </div>
-    <div>
-        <p id="language">Google offered in:
-            <a
-                href="https://www.google.com/setprefs?sig=0_b9hwAIAdfIwv1_bR1DMC3utoom0%3D&amp;hl=fr&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiW3eiNmYbuAhUKsp4KHcx_CZcQ2ZgBCBE"
-                >Français</a>
-        </p>
+        <ul class="center">
+            <center>
+                <li><input class="leftside" type="submit" value="Google Search"></li>
+                <li><input class="rightside" type="submit" value="I'm Feeling Lucky"></li>
+            </center>
+        </ul>
+
+        <footer>
+            <div class="navigatorBarButtom">
+                <div class="lowerone">
+                    <div class="buttomleft">
+                        <a
+                            href="https://www.google.com/intl/en_ca/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1">
+                            Advertising</a>
+                        <a
+                            href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1">Business</a>
+                        <a href="https://google.com/search/howsearchworks/?fg=1">How Search works</a>
+                    </div>
+
+                    <div class="buttomright">
+                        <a href="https://policies.google.com/privacy?hl=en-CA&amp;fg=1">Privacy</a>
+                        <a href="https://policies.google.com/terms?hl=en-CA&amp;fg=1">Terms</a>
+                        <a href="https://www.google.com/preferences?hl=en">Settings</a>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
     </div>
 </body>
 
