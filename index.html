@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+    div {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+
+    #searchbar {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        font-family: Arial, sans-serif;
+    }
+
+    #navigator {
+        display: grid;
+        grid-template-columns: 50px 50px;
+        align-items: start;
+    }
+
+</style>
+
+<body>
+    <header>
+        <div id="navigator">
+            <a id="item1" href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header">About</a>
+            <a id="item2" href="https://store.google.com/CA/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-CA">Store</a>
+        </div>
+
+    </header>
+    <div>
+        <img alt="Google" height="92" id="logo" src="images/googlelogo_color_272x92dp.png">
+    </div>
+    <div>
+    <input maxlength="9999" name="searchbar" type="text" title="Search" id="searchbar" class="searchbar">
+    </div>
+    <div>
+    <button type="submit"> Google Search </button>
+    <button type="submit"> I'm Feeling Lucky</button>
+    </div>
+    <div>
+        <p>Google offered in: 
+            <a href="https://www.google.com/setprefs?sig=0_b9hwAIAdfIwv1_bR1DMC3utoom0%3D&amp;hl=fr&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiW3eiNmYbuAhUKsp4KHcx_CZcQ2ZgBCBE">Français</a>
+        </p>
+    </div>
+</body>
+</html>
