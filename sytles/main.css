@@ -18,7 +18,7 @@ body {
     font-family: arial, sans-serif;
     padding: 6px;
     font-size: 14px;
-    height: 60px;
+    height: 4.5vh;
     width: 100vw;
 }
 
@@ -116,8 +116,9 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    height: 290px;
+    /* height: 290px; */
     max-height: 290px;
+    height: 24vh;
 }
 
 .logo {
@@ -131,7 +132,8 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    height: 160px;
+    /* height: 160px; */
+    height: 15vh;
     max-height: 160px;
     padding: 20px;
 }
@@ -238,7 +240,7 @@ body {
 }
 
 .section-3 {
-    height: 365px;
+    height: 55.5vh;
 }
 
 .fr-ver-g {
@@ -260,7 +262,7 @@ body {
 }
 
 .bottom {
-    height: 94px;
+    height: 7.5vh;
     background-color: #f2f2f2;
     color: rgba(0, 0, 0, .54);
     font-family: arial, sans-serif;
