@@ -19,9 +19,7 @@ body {
     font-family: arial, sans-serif;
     padding: 6px;
     font-size: 14px;
-    /* height: 60px; */
-    height: 7.61vh;
-    max-height: 48px;
+    height: 60px;
     width: 100vw;
 }
 
@@ -118,24 +116,27 @@ body {
     align-items: center;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     /* height: 290px; */
     height: 29.03vh;
+    min-height: 92px;
 }
 
 .logo {
     display: block;
+    align-items: flex-end;
     font-size: 14px;
-    margin-top: auto;
-    max-height: 11.7vh;
+    height: 92px;
+    margin-bottom: 0px;
+    min-height: 92px;
 }
 
 .section-2 {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    height: 20.28vh;
-    max-height: 160px;
+    /* height: 20.28vh; */
+    height: 160px;
     padding: 20px;
 }
 
@@ -241,7 +242,7 @@ body {
 }
 
 .section-3 {
-    min-height: 37.67vh;
+    min-height: 58px;
     height: 100%;
 }
 
@@ -264,8 +265,9 @@ body {
 }
 
 .bottom {
-    max-height: 94px;
-    height: 11.92vh;
+    align-items: flex-end;
+    height: 94px;
+    /* height: 11.92vh; */
     background-color: #f2f2f2;
     color: rgba(0, 0, 0, .54);
     font-family: arial, sans-serif;
