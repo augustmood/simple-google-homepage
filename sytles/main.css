@@ -18,7 +18,7 @@ body {
     font-family: arial, sans-serif;
     padding: 6px;
     font-size: 14px;
-    height: 4.5vh;
+    height: 60px;
     width: 100vw;
 }
 
@@ -116,9 +116,9 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    /* height: 290px; */
+    height: 290px;
     max-height: 290px;
-    height: 24vh;
+    /* height: 24vh; */
 }
 
 .logo {
@@ -132,8 +132,7 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    /* height: 160px; */
-    height: 15vh;
+    height: 160px;
     max-height: 160px;
     padding: 20px;
 }
@@ -262,7 +261,7 @@ body {
 }
 
 .bottom {
-    height: 7.5vh;
+    height: 94px;
     background-color: #f2f2f2;
     color: rgba(0, 0, 0, .54);
     font-family: arial, sans-serif;
