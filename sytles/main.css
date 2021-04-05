@@ -8,6 +8,7 @@ body {
     font-size: 14px;
     height: 100vh;
     width: 100vw;
+    overflow: scroll;
 }
 
 .top {
@@ -20,6 +21,7 @@ body {
     font-size: 14px;
     /* height: 60px; */
     height: 7.61vh;
+    max-height: 48px;
     width: 100vw;
 }
 
@@ -119,14 +121,12 @@ body {
     flex-direction: column;
     /* height: 290px; */
     height: 29.03vh;
-    max-height: 290px;
-    /* height: 24vh; */
 }
 
 .logo {
     display: block;
     font-size: 14px;
-    margin-top: 17.36vh;
+    margin-top: auto;
     max-height: 11.7vh;
 }
 
@@ -135,7 +135,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 20.28vh;
-    max-height: 20.28vh;
+    max-height: 160px;
     padding: 20px;
 }
 
@@ -242,6 +242,7 @@ body {
 
 .section-3 {
     min-height: 37.67vh;
+    height: 100%;
 }
 
 .fr-ver-g {
