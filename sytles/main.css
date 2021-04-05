@@ -18,7 +18,8 @@ body {
     font-family: arial, sans-serif;
     padding: 6px;
     font-size: 14px;
-    height: 60px;
+    /* height: 60px; */
+    height: 7.61vh;
     width: 100vw;
 }
 
@@ -116,7 +117,8 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    height: 290px;
+    /* height: 290px; */
+    height: 29.03vh;
     max-height: 290px;
     /* height: 24vh; */
 }
@@ -124,16 +126,16 @@ body {
 .logo {
     display: block;
     font-size: 14px;
-    margin-top: 198px;
-    max-height: 92px;
+    margin-top: 17.36vh;
+    max-height: 11.7vh;
 }
 
 .section-2 {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    height: 160px;
-    max-height: 160px;
+    height: 20.28vh;
+    max-height: 20.28vh;
     padding: 20px;
 }
 
@@ -239,7 +241,7 @@ body {
 }
 
 .section-3 {
-    height: 55.5vh;
+    height: 31.18vh;
 }
 
 .fr-ver-g {
@@ -261,7 +263,8 @@ body {
 }
 
 .bottom {
-    height: 94px;
+    /* height: 94px; */
+    height: 11.92vh;
     background-color: #f2f2f2;
     color: rgba(0, 0, 0, .54);
     font-family: arial, sans-serif;
