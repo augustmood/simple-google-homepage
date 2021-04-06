@@ -242,8 +242,9 @@ body {
 }
 
 .section-3 {
+    align-items: flex-end;
     min-height: 58px;
-    height: auto;
+    flex-grow: 1;
 }
 
 .fr-ver-g {
